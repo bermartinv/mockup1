@@ -1,0 +1,28 @@
+.header_contenedor{
+	height:80vh;
+	width:100%;
+	background-image: url("../img/fondo_header.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position:40% 40%;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	font:{
+		weight:800;
+		size:100px;
+	}
+	color:white;
+
+	.logo{
+		display:flex;
+		justify-content:space-around;
+		align-items:space-between;
+		flex-direction:row;
+			img{
+			}
+			p{
+				margin-top:40px;
+			}
+	}
+}

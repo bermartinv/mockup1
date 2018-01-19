@@ -1,0 +1,51 @@
+#home{
+	display:flex;
+	flex-direction:row;
+	justify-content:space-around;
+	margin:100px;
+	@media (max-width:1024px) {
+		flex-direction:column;
+	}
+  
+	.left_home{
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+		img{
+			width:300px;
+			height:300px;
+			margin:20px;
+		}
+		i{
+			display:flex;
+			justify-content:center;
+		}
+	}
+	.right_home{
+		h2{
+			font:{
+				size:30px;
+				weight:bolder;
+			}
+			text-align:center;
+		}
+		p{
+			text-align:justify;
+			font-size:20px;
+		}
+	}
+
+	#parrafos{
+		display:flex;
+		flex-direction:column;
+		.izq{
+
+		}
+
+		.der{}
+	}
+
+
+}
+

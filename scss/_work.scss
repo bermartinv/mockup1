@@ -1,0 +1,48 @@
+#work{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	.titulo_work{
+		font:{
+			size:35px;
+			weight: 900;
+			variant:small-caps;
+		}
+		letter-spacing: .8px;
+		margin-top:50px;
+	}
+	.secciones{
+		display:flex;
+		flex-wrap:wrap;
+		@media (max-width:1024px) {
+				flex-direction:column;
+				justify-content:center;
+				align-items:center;
+			}
+		
+		.seccion{
+			margin:20px;
+			width:28%;
+			h2{
+				margin:0.5px;
+				text-align:center;
+				font:{
+			size:30px;
+			weight: 900;
+			variant:small-caps;
+				}
+			}
+			i{
+				text-align: center;
+				display:flex;
+				justify-content:center;
+			}
+			p{
+				text-align: justify;
+				font-size:20px;
+			}
+		}
+	}
+
+}

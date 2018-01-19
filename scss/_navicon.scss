@@ -1,0 +1,109 @@
+
+#nav{
+	position:fixed;
+	top:0;
+	right:-240px;
+	text-align:left;
+	width:300px;
+	height:100%;
+	z-index:10;
+	display:block;
+	transition: all 1s;
+	
+	.menu-navicon{
+		position:absolute;
+		z-index:12;
+		top:20px;
+		left:0;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		background:lightgrey;
+		border:solid thin grey;
+		font:{
+			weight:900;
+			size:15px;
+			}
+		width:40px;
+		height:40px;
+		color:white;
+		&:hover{
+			cursor:pointer;
+			transition: font-size 0.5s;
+			font-size:20px;
+		}
+	}
+
+	.menu-wrap{
+		height:100%;
+		width:230px;
+		position:absolute;
+		top:0;
+		right:0;
+		background:black;
+		transition: all 1s;
+		display:flex;
+		flex-direction:column;
+		align-items:center;
+			.titulo_portafolio a{
+				display:inline-block;
+				margin:40px 10px;
+				color: white;
+				font-size:25px;
+				&:hover{
+					text-decoration:underline;
+					color:	#FF8C00;
+				}
+			}
+			.select_menu{
+				margin:10px;
+				font-size:20px;
+				color:lightgrey;
+				&:hover{
+					border-bottom:solid 3px lightgrey;
+					color:#FF8C00;
+				}
+			}
+			.menu_close{
+						color:white;
+						position:absolute;
+						top:5px;
+						right:5px;
+						width:40px;
+						height:40px;
+						display:inline-block;
+						cursor:pointer;
+						float:right;
+						}
+			.redes{
+				display:flex;
+				flex-direction:row;
+				justify-content:space-between;
+				align-items:space-between;
+				color:lightgrey;
+				margin-top:10px;
+				a{
+					color:lightgrey;
+					transition: all 1s;
+				padding:10px;
+					&:hover{
+						color:#FF8C00;
+					}
+				}
+			}		
+		}
+	
+}
+.menu-wrap-hidden{
+		position:fixed;
+	
+	text-align:left;
+	width:300px;
+	height:100%;
+	z-index:10;
+	display:block;
+		top:0;
+		right:0px !important;
+		transition: all 1s;
+		color:red;
+	}	

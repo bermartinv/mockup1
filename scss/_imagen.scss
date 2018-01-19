@@ -1,0 +1,16 @@
+#imagen_intermedia{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width:80vw;
+	height:50vh;
+	background-image: url(../img/faro_mar.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: 50% 50%;
+	margin:auto;
+	&:hover{
+		filter:invert(100%);
+		transition: all 2s;
+	}
+}
